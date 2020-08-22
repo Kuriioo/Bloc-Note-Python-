@@ -57,7 +57,7 @@ class Main():
 		else:
 			self.saveAsFile()
 	def saveAsFile(self):
-		TextFile = FileDialog.asksaveasfilename(defaultextension=".*", title="Save As", filetypes=(("All Files", "*.*")))
+		TextFile = FileDialog.asksaveasfilename(defaultextension=".*", title="Save As")
 		if TextFile:
 			self.Properties.File = TextFile
 			File = TextFile
